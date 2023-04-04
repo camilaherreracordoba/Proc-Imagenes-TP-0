@@ -34,8 +34,8 @@ def setPixelValue(img, x, y, new_value):
 #    print('valor anterior: '+ str(img[y, x]))
     img[y, x] = new_value
 #    print('valor actual: '+ str(img[y, x]))
-imgPGM = cargarPGM('Imagenes/TESTpgm.PGM')
-imgRAW = cargarRAW(290, 207, 'Imagenes/BARCO.RAW')
+#imgPGM = cargarPGM('Imagenes/TESTpgm.PGM')
+#imgRAW = cargarRAW(290, 207, 'Imagenes/BARCO.RAW')
 
 # Copiar una parte de la imagen en otra imagen nueva
 
